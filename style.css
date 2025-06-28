@@ -1,0 +1,17 @@
+.wrapper {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+
+    display: flex;
+    height: 450px;
+    width: 250px;
+
+
+}
+
