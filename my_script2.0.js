@@ -10,67 +10,69 @@ const display = document.querySelector(".display")
 
 
 
-numberButtons.addEventListener("click", function(e){
+function getNum(arr) {
 
-   
-    
+
     let num = null
 
-    numberButtons.forEach(button => {
+    arr.forEach(button => {
 
-    if (button.id === "one") {
-        let num = 1;
+        if (button.id === "one") {
+            num = 1;
         
-    }
+        }
 
-    else if (button.id === "two") {
-        let num = 2;
+        else if (button.id === "two") {
+            num = 2;
        
-    }
+        }
 
-    else if (button.id === "three") {
-        let num = 3;
+        else if (button.id === "three") {
+            num = 3;
        
-    }
+        }
 
-    else if (button.id === "four") {
-        let num = 4;
+        else if (button.id === "four") {
+            num = 4;
         
-    }
+        }
 
-    else if (button.id === "five") {
-        let num = 5;
+        else if (button.id === "five") {
+            num = 5;
         
-    }
+        }
 
-    else if (button.id === "six") {
-        let num = 6;
+        else if (button.id === "six") {
+            num = 6;
         
-    }
+        }
 
-    else if (button.id === "seven") {
-        let num = 7;
+        else if (button.id === "seven") {
+            num = 7;
         
-    }
+        }
 
-    else if (button.id === "eight") {
-        let num = 8;
+        else if (button.id === "eight") {
+            num = 8;
         
-    }
+        }
 
-    else if (button.id === "nine") {
-        let num = 9;
+        else if (button.id === "nine") {
+            num = 9;
         
-    }
+        }
 
-    else if (button.id === "zero") {
-        let num = 0;
+        else if (button.id === "zero") {
+            num = 0;
         
-    }
+        }
 
     });
 
-});
+    return num
+
+
+}
 
 
 
