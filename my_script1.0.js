@@ -1,3 +1,7 @@
+/**
+     This JavaScript file covers all the basic opperations and logic for a calculator
+*/
+
 function add (num1,num2) {
 
     return num1+num2
@@ -12,14 +16,14 @@ function subtract (num1,num2) {
 }
 
 
-function multiply() {
+function multiply(num1,num2) {
 
     return num1*num2
 
 
 }
 
-function divide () {
+function divide (num1,num2) {
 
     return num1/num2
 
@@ -58,3 +62,5 @@ function operate (operator, userNum1,userNum2) {
 
     }
 }
+
+
